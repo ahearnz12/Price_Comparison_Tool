@@ -101,15 +101,23 @@ sequenceDiagram
 
 - **Python 3.8+**: Required for async/await and modern features
 - **pip3**: Python package manager
+- **git**: Version control system
 - **Operating System**: macOS, Linux, or Windows
+
+### Clone the Repository
+
+```bash
+# Clone the repository from GitHub
+git clone https://github.com/ahearnz12/Price_Comparison_Tool.git
+
+# Navigate to the project directory
+cd Price_Comparison_Tool
+```
 
 ### Installation & Setup
 
 #### Option 1: Automated Setup (macOS/Linux)
 ```bash
-# Clone or navigate to project directory
-cd Price_Comparison_Tool
-
 # Make startup script executable
 chmod +x run.sh
 
